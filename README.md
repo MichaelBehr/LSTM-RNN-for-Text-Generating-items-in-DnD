@@ -2,7 +2,7 @@
 Based off of the python3 module textgenrnn architecture, the D&amp;D item generator can generate new magical items based on the current list of 5th edition magical items.
 
 
-Based off of textgenrnn from https://github.com/minimaxir/textgenrnn. textgenrnn is a Python 3 module on top of [Keras](https://github.com/fchollet/keras)/[TensorFlow](https://www.tensorflow.org) for creating [char-rnn](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)s, with many cool features.
+textgenrnn is from https://github.com/minimaxir/textgenrnn and is a Python 3 module on top of [Keras](https://github.com/fchollet/keras)/[TensorFlow](https://www.tensorflow.org) for creating [char-rnn](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)s, with many cool features.
 
 The training was performed using googles [Colaboratory Notebook], using the following file: https://drive.google.com/file/d/1mMKGnVxirJnqDViH7BDJxFqWrsXlPSoK/view?usp=sharing)!
 Save this to your google docs if you want to try editing and running it yourself.
