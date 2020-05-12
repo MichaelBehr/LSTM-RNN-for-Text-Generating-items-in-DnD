@@ -9,27 +9,51 @@ Save this to your google docs if you want to try editing and running it yourself
 
 ## Examples
 
-```python
-from textgenrnn import textgenrnn
+Depending on the training parameters, the generated item results can widely vary. Training the LSTM at a word level preserves much of the magical item structure, but is less flexible when creating items. In contrast training on a character level has increased flexibility but also includes a larger amount of unusuable generations (including many humorous examples!). 
 
-textgen = textgenrnn()
-textgen.generate()
+Word Level Examples:
+
+```
+name : staff of the woodlands
+rarity : rare
+type : staff simple weapon melee weapon
+attunement : yes by a druid sorcerer warlock or wizard
+weight : 4 lb .
+value :
+description : this staff has 10 charges . while holding it you can use an action to expend 1 of its charges and create orchestral music on a creature . once used this property can't be used again until the next dawn. The wearer has disadvantage on stealth ( dexterity ) checks.
+
+name : mind lash
+rarity : rare
+type : melee weapon
+attunement : yes by a mind flayer
+weight : 3 lb .
+value :
+description : this longsword has a flanged head and it functions as a magic mace that grants a + 3 bonus to attack and damage rolls made with this sword . in addition while you hold the sword you can use your reaction to make one melee attack with it against any creature in your reach that deals damage to you . you have advantage on the attack roll and any damage dealt with this special attack ignores any damage immunity or resistance the target has
+versatile : this weapon can be used with one or two hands . a damage value in parentheses appears with the propertythe damage when the weapon is used with two hands to make a melee attack .
 ```
 
-```text
-[Spoiler] Anyone else find this post and their person that was a little more than I really like the Star Wars in the fire or health and posting a personal house of the 2016 Letter for the game in a report of my backyard.
+Char Level Examples
+
+```
+Nessurplecal Three
+Rarity: none
+Type: treasure
+Attunement: No
+Weight: 
+Value: 100 gp
+Description: A translucent ruby with electrum ability. The flames last until you use a bonus action to speak the command word again while touching it. When the creature becomes a figurine again its property can't b.
+
+name: Sword of Wounditing Wfthen
+Rarity: rare
+Type: wondrous item
+Attunement: No
+Weight: 
+Value: 
+Description: This bullseye lantern common and poisoned. The poisoned condition for 1 hour.
 ```
 
-The included model can easily be trained on new texts, and can generate appropriate text *even after a single pass of the input data*.
 
-```python
-textgen.train_from_file('hacker_news_2000.txt', num_epochs=1)
-textgen.generate()
-```
 
-```text
-Project State Project Firefox
-```
 
 ## Maintainer/Creator
 
