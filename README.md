@@ -11,9 +11,9 @@ Save this to your google docs if you want to try editing and running it yourself
 Data was scraped from the website: http://5e.d20srd.org/srd/magicItems/magicItemsAToZ.htm?fbclid=IwAR1QJrUpmuAGb-YHA3xvtCv5vASRvIi7UsSLA-z9AzCa5VwWgaCOZhfopHk using the Python3 modules Pandas, and Beautiful soup. Data was then gathered into a spreadsheet and made ready for cleaning. The spreadsheet is included as the file: "D&D Items.xlsx"
 
 ## Data Cleaning
-The spreadsheet initially contained missing descriptions, weights and values for many of the items. Going through it, I added information that was missing by cross-referencing it with official D&D 5e website https://www.dndbeyond.com/magic-items. Any missing text descriptions, I filled in with "This function is self-explanatory." This only ended up being less than 150 entries or less than 10% of the total item list. 
+The spreadsheet initially contained missing descriptions, weights and values for many of the items. Going through it, I added information that was missing by cross-referencing it with official D&D 5e website https://www.dndbeyond.com/magic-items. Any missing text descriptions, I filled in with "This function is self-explanatory." This only ended up being less than 150 entries or less than 10% of the total item list.
 
-I also added labels for each item. The cleaned spreadsheet can be seen under "D&D Items Cleaned.xlsx"
+I also added labels for each item, and a space between each item in order to help provide pattern structure for the RNN to learn. The cleaned spreadsheet can be seen under "D&D Items Annotated.xlsx"
 
 ## Examples
 
