@@ -17,9 +17,11 @@ I also added labels for each item, and a space between each item in order to hel
 
 ## Saving as Text File
 After the excel sheet was cleaned, it was converted into a text file by use of: 
+```
 1. File
 2. Saveas 
 3. Save as tab delimited text file.
+```
 Once it was saved as a tab delimited file, I used the Find and replace functionality to find each tab and replace it with a newline. This created a text file where each magical item was separated from each other by 2 newlinecharacters. Once this was done, I performed further cleaning by using regex to detect errors and use Find and Replace to fix them. For example, there was multiple errors throughout where there would be no space after a period. This was detected easily through Python regex and was able to be fixed (by adding a space after the period). I did similar general detection patterns for common errors in the text file, but was required to also manually scan the file for more unique problems. Additionally, I made sure to make each property in the text have its own newline. For example, the versatile property would have its own newline.  Overall the item list should be more standardized and error free.
 
 ## Examples
