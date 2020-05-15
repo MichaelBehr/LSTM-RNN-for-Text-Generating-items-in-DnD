@@ -4,8 +4,7 @@ This is a module that applies the python3 module textgenrnn RNN architecture and
 
 textgenrnn is from https://github.com/minimaxir/textgenrnn and is a Python 3 module on top of [Keras](https://github.com/fchollet/keras)/[TensorFlow](https://www.tensorflow.org) for creating [char-rnn](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)s, with many cool features.
 
-The training was performed using googles [Colaboratory Notebook], using the following file: https://drive.google.com/file/d/1mMKGnVxirJnqDViH7BDJxFqWrsXlPSoK/view?usp=sharing)!
-Save this to your google docs if you want to try editing and running it yourself.
+Initial training was performed using googles [Colaboratory Notebook], using the following file: https://drive.google.com/file/d/1mMKGnVxirJnqDViH7BDJxFqWrsXlPSoK/view?usp=sharing)! This is thanks to Max Woolf for setting up this easy to use tutorial. Save this to your google docs if you want to try editing and running it yourself.
 
 ## Web Scraping
 Data was scraped from the website: http://5e.d20srd.org/srd/magicItems/magicItemsAToZ.htm?fbclid=IwAR1QJrUpmuAGb-YHA3xvtCv5vASRvIi7UsSLA-z9AzCa5VwWgaCOZhfopHk using the Python3 modules Pandas, and Beautiful soup. Data was then gathered into a spreadsheet and made ready for cleaning. The spreadsheet is included as the file: "D&D Items.xlsx"
@@ -23,6 +22,12 @@ After the excel sheet was cleaned, it was converted into a text file by use of:
 3. Save as tab delimited text file.
 ```
 Once it was saved as a tab delimited file, I used the Find and replace functionality to find each tab and replace it with a newline. This created a text file where each magical item was separated from each other by 2 newlinecharacters. Once this was done, I performed further cleaning by using regex to detect errors and use Find and Replace to fix them. For example, there was multiple errors throughout where there would be no space after a period. This was detected easily through Python regex and was able to be fixed (by adding a space after the period). I did similar general detection patterns for common errors in the text file, but was required to also manually scan the file for more unique problems. Additionally, I made sure to make each property in the text have its own newline. For example, the versatile property would have its own newline.  Overall the item list should be more standardized and error free.
+
+## Running Textgenrnn
+With our newly cleaned data we can then train our LSTM RNN model on the dataset. Using the textgenrnn architecture and tutorial on google's colaboratory notebook (credit to Max Woolf), we can upload our data and follow the steps to build and train our model. The advantage of colaboratory is access to GPU acceleration for the training, greatly speeding up the time for the model completion.
+
+## Model Parameter Changes
+To improve the D&D item generator performance, we employed tuning using model validation. Once we 
 
 ## Examples
 
