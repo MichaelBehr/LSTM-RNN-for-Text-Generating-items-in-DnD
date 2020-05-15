@@ -46,8 +46,25 @@ Depending on the training parameters, the generated item results can widely vary
 Actual Item Descriptions:
 
 ```
+Name: Staff of Birdcalls
+Rarity: common
+Type: staff simple weapon melee weapon
+Attunement: No
+Weight: 4 lb.
+Value: 
+Description: This wooden staff is decorated with bird carvings. It has 10 charges. While holding it you can use an action to expend 1 charge from the staff and cause it to create one of the following sounds out to a range of 60 feet: a finch's chirp a raven's caw a duck's quack a chicken's cluck a goose's book a loon's call a turkey's gobble a seagull's cry an owl's hoot or an eagle's shriek. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge roll a d20. On a 1, the staff explodes in a harmless cloud of bird feathers and is lost forever 
+Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.
 ```
+
 ```
+Name: Sunforger
+Rarity: rare
+Type: martial weapon (warhammer) melee weapon
+Attunement: Yes
+Weight: 2 lb.
+Value: 
+Description: You gain a +2 bonus to attack and damage rolls made with this magic weapon. As an action you can hurl the weapon up to 120 feet to a point you can see. When it reaches that point the weapon vanishes in an explosion and each creature in a 20-foot-radius sphere centered on that point must make a DC 15 Dexterity saving throw taking 6d6 fire damage on a failed save or half as much damage on a successful one. Afterward you can use an action to cause the weapon to reappear in your empty hand. You can't cause it to explode again until you finish a short or long rest. If you don't call the weapon back to your hand it reappears at the point where it exploded when you are no longer attuned to it or when 24 hours have passed 
+Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.
 ```
 
 Word Level Examples:
