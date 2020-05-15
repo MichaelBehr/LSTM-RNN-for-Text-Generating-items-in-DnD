@@ -27,7 +27,17 @@ Once it was saved as a tab delimited file, I used the Find and replace functiona
 With our newly cleaned data we can then train our LSTM RNN model on the dataset. Using the textgenrnn architecture and tutorial on google's colaboratory notebook (credit to Max Woolf), we can upload our data and follow the steps to build and train our model. The advantage of colaboratory is access to GPU acceleration for the training, greatly speeding up the time for the model completion.
 
 ## Model Parameter Changes
-To improve the D&D item generator performance, we employed tuning using model validation. Once we 
+To improve the D&D item generator performance, we employed tuning using model validation. Parameter changes are as follows:
+
+```
+1. RNN layers = 5
+2. RNN bi-directional = True
+3. Max_Lenght of Character Vector = 40
+4. Num_epochs = 20 -> any longer and you overfit
+5. Train_size = 0.8
+6. Validation = True
+7. Dropout = 0.5 -> helps generalize the model
+```
 
 ## Examples
 
