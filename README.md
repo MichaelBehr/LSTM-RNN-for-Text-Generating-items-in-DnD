@@ -108,8 +108,12 @@ Value:
 Description: This bullseye lantern common and poisoned. The poisoned condition for 1 hour.
 ```
 
-
-
+## Future Steps
+```
+1. Increase the item list as new items are released with new material.
+2. Improve dataset quality and structure: Organizing it differently may yield performance increases.
+3. Train multiple models on different item rarities. More complex magical items skew the training model and perhaps should be separated for increased quality of text generation.
+```
 
 ## Maintainer/Creator
 
