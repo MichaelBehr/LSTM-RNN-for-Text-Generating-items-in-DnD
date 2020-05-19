@@ -26,9 +26,7 @@ Once it was saved as a tab delimited file, I used the Find and replace functiona
 ## Running Textgenrnn
 With our newly cleaned data we can then train our LSTM RNN model on the dataset. Using the textgenrnn architecture and tutorial on google's colaboratory notebook (credit to Max Woolf), we can upload our data and follow the steps to build and train our model. The advantage of colaboratory is access to GPU acceleration for the training, greatly speeding up the time for the model completion.
 
-If you prefer running your models on local hardware, the scripts to do so are included. Perform the following steps:
-
-
+If you prefer running your models on local hardware, the scripts to do so are included.
 
 ## Model Parameter Changes
 To improve the D&D item generator performance, we employed tuning using model validation. Parameter changes are as follows:
