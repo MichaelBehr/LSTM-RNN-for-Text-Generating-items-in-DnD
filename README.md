@@ -28,6 +28,19 @@ With our newly cleaned data we can then train our LSTM RNN model on the dataset.
 
 If you prefer running your models on local hardware, the scripts to do so are included.
 
+To recreate the model on your own computer, after installing textgenrnn and TensorFlow, you can create a Python script with:
+
+```
+from textgenrnn import textgenrnn
+textgen = textgenrnn(weights_path='colaboratory_weights.hdf5',
+                       vocab_path='colaboratory_vocab.json',
+                       config_path='colaboratory_config.json')
+                       
+textgen.generate_samples(max_gen_length=1000)
+textgen.generate_to_file('textgenrnn_texts.txt', max_gen_length=1000)
+```
+
+
 ## Model Parameter Changes
 To improve the D&D item generator performance, we employed tuning using model validation. Parameter changes are as follows:
 
