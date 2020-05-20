@@ -140,7 +140,7 @@ Andrej Karpathy for the original proposal of the char-rnn via the blog post [The
 
 [Daniel Grijalva](https://github.com/Juanets) for [contributing](https://github.com/minimaxir/textgenrnn/pull/52) an interactive mode.
 
-Max Woolf for the network architecture and basis. Max Woolf ([@minimaxir](http://minimaxir.com))
+Max Woolf for textgenrnn providing the network architecture and entire model basis: https://github.com/minimaxir/textgenrnn. Max Woolf ([@minimaxir](http://minimaxir.com))
 
 ## License
 
