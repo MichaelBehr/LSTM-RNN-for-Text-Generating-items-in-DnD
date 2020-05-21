@@ -103,7 +103,7 @@ description : this longsword has a flanged head and it functions as a magic mace
 versatile : this weapon can be used with one or two hands . a damage value in parentheses appears with the propertythe damage when the weapon is used with two hands to make a melee attack .
 ```
 
-Char Level Examples
+Char Level Examples:
 
 ```
 Nessurplecal Three
