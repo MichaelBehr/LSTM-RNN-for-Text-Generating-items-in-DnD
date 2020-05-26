@@ -7,7 +7,7 @@ textgenrnn is from https://github.com/minimaxir/textgenrnn and is a Python 3 mod
 Initial training was performed using googles [Colaboratory Notebook], using the following file: https://drive.google.com/file/d/1mMKGnVxirJnqDViH7BDJxFqWrsXlPSoK/view?usp=sharing)! This is thanks to Max Woolf for setting up this easy to use tutorial. Save this to your google docs if you want to try editing and running it yourself.
 
 ## Web Scraping
-Data was scraped from the website: http://5e.d20srd.org/srd/magicItems/magicItemsAToZ.htm?fbclid=IwAR1QJrUpmuAGb-YHA3xvtCv5vASRvIi7UsSLA-z9AzCa5VwWgaCOZhfopHk using the Python3 modules Pandas, and Beautiful soup. Data was then gathered into a spreadsheet and made ready for cleaning. The spreadsheet is included as the file: "D&D Items.xlsx"
+Data was scraped from the website: http://5e.d20srd.org/srd/magicItems/magicItemsAToZ.htm?fbclid=IwAR1QJrUpmuAGb-YHA3xvtCv5vASRvIi7UsSLA-z9AzCa5VwWgaCOZhfopHk using the Python3 modules Pandas, and Beautiful soup. Data was then gathered into a spreadsheet and made ready for the data cleaning procedure. This spreadsheet is included as the file: "D&D Items.xlsx" in the root directory.
 
 ## Data Cleaning
 The spreadsheet initially contained missing descriptions, weights and values for many of the items. Going through it, I added information that was missing by cross-referencing it with official D&D 5e website https://www.dndbeyond.com/magic-items. Any missing text descriptions, I filled in with "This function is self-explanatory." This only ended up being less than 150 entries or less than 10% of the total item list. For future improvements I would suggest adding invidualized descriptions for each item to improve training data quality.
