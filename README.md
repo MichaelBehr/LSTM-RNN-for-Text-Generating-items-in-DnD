@@ -59,7 +59,7 @@ To improve the D&D item generator performance, we employed tuning using model va
 Depending on the training parameters, the generated item results can widely vary. Training the LSTM at a word level preserves much of the magical item structure, but is less flexible when creating items. In contrast training on a character level has increased flexibility but also includes a larger amount of unusuable generations (including many humorous examples!). 
 
 ### Original Format:
-[Staff of Woodlands](/Pictures/woodlands.png)
+![Staff of Woodlands](https://github.com/MichaelBehr/LSTM-RNN-for-Text-Generating-items-in-DnD/blob/master/Pictures/staffwithering.PNG)
 [[/Pictures/staffwithering.png]]
 
 
