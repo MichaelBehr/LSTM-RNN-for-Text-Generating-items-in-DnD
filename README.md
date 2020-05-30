@@ -54,11 +54,16 @@ To improve the D&D item generator performance, we employed tuning using model va
 7. Dropout = 0.5 -> helps generalize the model
 ```
 
-## Examples
+## Actual Item Examples:
 
 Depending on the training parameters, the generated item results can widely vary. Training the LSTM at a word level preserves much of the magical item structure, but is less flexible when creating items. In contrast training on a character level has increased flexibility but also includes a larger amount of unusuable generations (including many humorous examples!). 
 
-Actual Item Descriptions:
+### Original Format:
+[[/Pictures/woodlands.PNG|Staff of the Woodlands]]
+[[/Pictures/staffwithering.PNG|Staff of Withering]]
+
+
+### Text Reformatted:
 
 ```
 Name: Staff of Birdcalls
@@ -82,7 +87,11 @@ Description: You gain a +2 bonus to attack and damage rolls made with this magic
 Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.
 ```
 
-Word Level Examples:
+## Generated Items Examples:
+
+Depending on the training parameters, the generated item results can widely vary. Training the LSTM at a word level preserves much of the magical item structure, but is less flexible when creating items. In contrast training on a character level has increased flexibility but also includes a larger amount of unusuable generations (including many humorous examples!). 
+
+### Word Level Examples:
 
 ```
 name : staff of the woodlands
@@ -103,7 +112,7 @@ description : this longsword has a flanged head and it functions as a magic mace
 versatile : this weapon can be used with one or two hands . a damage value in parentheses appears with the propertythe damage when the weapon is used with two hands to make a melee attack .
 ```
 
-Char Level Examples:
+### Char Level Examples:
 
 ```
 Nessurplecal Three
