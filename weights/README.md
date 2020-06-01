@@ -1,3 +1,3 @@
 # textgenrnn Weights
 
-Here are pretrained weights which can be loaded into textgenrnn, each trained for 500 epochs on the corresponding dataset in `/datasets`.
+Here are the pre-generated weights for the D&D item generator.
