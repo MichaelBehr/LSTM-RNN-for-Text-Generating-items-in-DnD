@@ -66,24 +66,26 @@ Depending on the training parameters, the generated item results can widely vary
 ### Text Reformatted:
 
 ```
-Name: Staff of Birdcalls
-Rarity: common
+Name: Staff of the Woodlands
+Rarity: rare
 Type: staff simple weapon melee weapon
-Attunement: No
+Attunement: Yes by a druid
 Weight: 4 lb.
 Value: 
-Description: This wooden staff is decorated with bird carvings. It has 10 charges. While holding it you can use an action to expend 1 charge from the staff and cause it to create one of the following sounds out to a range of 60 feet: a finch's chirp a raven's caw a duck's quack a chicken's cluck a goose's book a loon's call a turkey's gobble a seagull's cry an owl's hoot or an eagle's shriek. The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge roll a d20. On a 1, the staff explodes in a harmless cloud of bird feathers and is lost forever 
+Description: This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While holding it you have a +2 bonus to spell attack rolls. The staff has 10 charges for the following properties. It regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge roll a d20. On a 1, the staff loses its properties and becomes a nonmagical quarterstaff.
+Spells: You can use an action to expend 1 or more of the staff's charges to cast one of the following spells from it using your spell save DC: animal friendship (1 charge) awaken (5 charges) barkskin (2 charges) locate animals or plants (2 charges) speak with animals (1 charge) speak with plants (3 charges) or wall of thorns (6 charges). You can also use an action to cast the pass without trace spell from the staff without using any charges. 
+Tree Form: You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree. The tree is 60 feet tall and has a 5-foot-diameter trunk and its branches at the top spread out in a 20-foot radius. The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by detect magic. While touching the tree and using another action to speak its command word you return the staff to its normal form. Any creature in the tree falls when it reverts to a staff 
 Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.
 ```
 
 ```
-Name: Sunforger
+Name: Staff of Withering
 Rarity: rare
-Type: martial weapon (warhammer) melee weapon
-Attunement: Yes
-Weight: 2 lb.
+Type: staff simple weapon melee weapon
+Attunement: Yes by a cleric druid or warlock
+Weight: 4 lb.
 Value: 
-Description: You gain a +2 bonus to attack and damage rolls made with this magic weapon. As an action you can hurl the weapon up to 120 feet to a point you can see. When it reaches that point the weapon vanishes in an explosion and each creature in a 20-foot-radius sphere centered on that point must make a DC 15 Dexterity saving throw taking 6d6 fire damage on a failed save or half as much damage on a successful one. Afterward you can use an action to cause the weapon to reappear in your empty hand. You can't cause it to explode again until you finish a short or long rest. If you don't call the weapon back to your hand it reappears at the point where it exploded when you are no longer attuned to it or when 24 hours have passed 
+Description: This staff has 3 charges and regains 1d3 expended charges daily at dawn. The staff can be wielded as a magic quarterstaff. On a hit it deals damage as a normal quarterstaff and you can expend 1 charge to deal an extra 2d10 necrotic damage to the target. In addition the target must succeed on a DC 15 Constitution saving throw or have disadvantage for 1 hour on any ability check or saving throw that uses Strength or Constitution 
 Versatile: This weapon can be used with one or two hands. A damage value in parentheses appears with the property—the damage when the weapon is used with two hands to make a melee attack.
 ```
 
@@ -94,7 +96,7 @@ Depending on the training parameters, the generated item results can widely vary
 ### Word Level Examples:
 
 ```
-name : staff of the woodlands
+name : staff of birdcalls
 rarity : rare
 type : staff simple weapon melee weapon
 attunement : yes by a druid sorcerer warlock or wizard
