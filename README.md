@@ -91,7 +91,7 @@ Versatile: This weapon can be used with one or two hands. A damage value in pare
 
 ## Generated Items Examples:
 
-Depending on the training parameters, the generated item results can widely vary. Training the LSTM at a word level preserves much of the magical item structure, but is less flexible when creating items. In contrast training on a character level has increased flexibility but also includes a larger amount of unusuable generations (including many humorous examples!). 
+Depending on the training parameters, the generated item results can widely vary. Training the LSTM at a word level preserves much of the magical item structure, but is less flexible when creating items. In contrast training on a character level has increased flexibility but also includes a larger amount of unusuable generations (including many humorous examples!). In both cases, the results must be filtered through. Eventually, I will implement a scoring metric for the results in order to better select answers.
 
 ### Word Level Examples:
 
