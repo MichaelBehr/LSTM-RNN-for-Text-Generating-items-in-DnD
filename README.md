@@ -1,5 +1,5 @@
 # DnD-Item-Generator
-This is a module that applies the python3 module textgenrnn RNN architecture and trains it on an expansive list of magical items from the 5th edition of Dungeons and Dragons. The D&amp;D item generator can generate new magical items based on the current list of 5th edition magical items.
+This is a module that applies the python3 module textgenrnn RNN architecture and trains it on an expansive list of magical items from the 5th edition of Dungeons and Dragons. The D&amp;D item generator can generate new magical items based on the current list of 5th edition magical items included in the repo.
 
 
 textgenrnn is from https://github.com/minimaxir/textgenrnn and is a Python 3 module on top of [Keras](https://github.com/fchollet/keras)/[TensorFlow](https://www.tensorflow.org) for creating [char-rnn](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)s, with many cool features.
