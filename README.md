@@ -138,8 +138,9 @@ Description: This bullseye lantern common and poisoned. The poisoned condition f
 ```
 1. Increase the item list as new items are released with new material.
 2. Improve dataset quality and structure: Organizing it differently may yield performance increases.
-3. Train multiple models on different item rarities. More complex magical items skew the training model and perhaps should be separated for increased quality of text generation.
-4. Implement a validation metric for the generated text.
+3. Building off of point 2, better data cleaning procedures like adding START and END labels may improve performance.
+4. Train multiple models on different item rarities. More complex magical items skew the training model and perhaps should be separated for increased quality of text generation.
+5. Implement a validation metric for the generated text.
 ```
 
 ## Maintainer/Creator
